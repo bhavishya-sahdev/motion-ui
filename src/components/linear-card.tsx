@@ -21,7 +21,7 @@ export default function LinearCard({ title, image, content }: TButtonProps) {
                 >
                     {/* <motion.div layoutId="circle" className="max-w-[300px] mx-auto aspect-square rounded-full bg-white/80 mb-12" /> */}
                     <motion.img src={image} layoutId="image" className="w-full mx-auto " />
-                    <motion.div className="flex items-end justify-between -mt-10 gap-4git">
+                    <motion.div className="flex items-end justify-between -mt-10 gap-4">
                         <motion.p layoutId="title" className="text-2xl text-left">
                             {title}
                         </motion.p>
